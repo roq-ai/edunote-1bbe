@@ -1,0 +1,2272 @@
+[
+  {
+    "topic": [
+      {
+        "id": "5dfe1c7c-9c7d-4a9c-9c10-90cdc3f80791",
+        "title": "Science",
+        "description": "Exploring the wonders of the universe",
+        "created_at": "2023-09-28T10:19:50.334Z",
+        "updated_at": "2023-09-27T14:53:48.276Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7bb692cb-97ae-4911-9f16-9c8d7d037392",
+        "title": "History",
+        "description": "Unraveling the past",
+        "created_at": "2023-09-28T07:44:54.928Z",
+        "updated_at": "2023-09-27T12:35:35.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "084f37e9-635e-4ae5-8250-c80a4d6f85bf",
+        "title": "Mathematics",
+        "description": "Solving complex equations",
+        "created_at": "2023-09-27T12:28:34.692Z",
+        "updated_at": "2023-09-27T17:37:38.367Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9fd4b46-ad43-44a3-9400-2bceac952bb2",
+        "title": "Literature",
+        "description": "Appreciating great works of literature",
+        "created_at": "2023-09-27T21:16:14.788Z",
+        "updated_at": "2023-09-28T06:55:52.555Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "13f47749-dba6-4d86-853b-abb68780bad3",
+        "title": "Art",
+        "description": "Expressing creativity through art",
+        "created_at": "2023-09-27T22:47:22.067Z",
+        "updated_at": "2023-09-27T13:32:05.769Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "257d37af-dcb2-4f8f-b2e2-a79b01ee1223",
+        "title": "Sunset at the beach",
+        "description": "A breathtaking view of the sun setting over the ocean",
+        "created_at": "2023-09-27T12:44:28.748Z",
+        "updated_at": "2023-09-28T10:09:30.013Z",
+        "topic_id": "13f47749-dba6-4d86-853b-abb68780bad3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "937a1713-00f6-4487-854a-cbb750591646",
+        "title": "City skyline at night",
+        "description": "The vibrant lights of a bustling city at night",
+        "created_at": "2023-09-28T05:48:02.649Z",
+        "updated_at": "2023-09-27T20:19:35.270Z",
+        "topic_id": "d9fd4b46-ad43-44a3-9400-2bceac952bb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ea79765-f159-4c9b-9e48-968daf73bd50",
+        "title": "Nature's beauty in full bloom",
+        "description": "Flowers and trees in their full glory",
+        "created_at": "2023-09-27T12:08:38.823Z",
+        "updated_at": "2023-09-27T18:30:58.153Z",
+        "topic_id": "5dfe1c7c-9c7d-4a9c-9c10-90cdc3f80791",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d821b6bd-07fb-4d13-977c-e21121619983",
+        "title": "Capturing candid moments",
+        "description": "Candid shots of people in everyday life",
+        "created_at": "2023-09-27T15:43:03.203Z",
+        "updated_at": "2023-09-28T07:19:03.162Z",
+        "topic_id": "7bb692cb-97ae-4911-9f16-9c8d7d037392",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79ed7638-122e-470e-94d8-fdfea0a8fa0c",
+        "title": "Exploring urban landscapes",
+        "description": "Exploring the unique architecture of cities",
+        "created_at": "2023-09-28T10:56:00.303Z",
+        "updated_at": "2023-09-27T23:47:06.325Z",
+        "topic_id": "d9fd4b46-ad43-44a3-9400-2bceac952bb2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "1cd506dd-9ef0-43fd-9fe0-abc4ba8e393c",
+        "content": "Important reminders for the day",
+        "created_at": "2023-09-28T09:02:52.647Z",
+        "updated_at": "2023-09-27T20:47:22.285Z",
+        "topic_id": "13f47749-dba6-4d86-853b-abb68780bad3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27b0bd0e-e8ca-446f-9172-6ef2d27c4f2d",
+        "content": "Thoughts and reflections on life",
+        "created_at": "2023-09-27T19:10:20.353Z",
+        "updated_at": "2023-09-28T11:00:47.275Z",
+        "topic_id": "5dfe1c7c-9c7d-4a9c-9c10-90cdc3f80791",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a898005-43e0-4fa3-a362-508316c87fb6",
+        "content": "Ideas and inspirations for future projects",
+        "created_at": "2023-09-27T19:19:24.430Z",
+        "updated_at": "2023-09-28T01:33:48.446Z",
+        "topic_id": "d9fd4b46-ad43-44a3-9400-2bceac952bb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5837a4bb-96a0-43d7-a4cd-97944b0c6511",
+        "content": "Meeting notes and action items",
+        "created_at": "2023-09-28T02:13:04.434Z",
+        "updated_at": "2023-09-28T07:44:41.372Z",
+        "topic_id": "7bb692cb-97ae-4911-9f16-9c8d7d037392",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7db12c7d-bd4c-45ba-9dbc-c476150b518a",
+        "content": "Personal musings and observations",
+        "created_at": "2023-09-28T10:25:42.034Z",
+        "updated_at": "2023-09-28T10:06:01.380Z",
+        "topic_id": "084f37e9-635e-4ae5-8250-c80a4d6f85bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "eb3eed4c-1882-4cf3-b1c3-ccd8bd4887cc",
+        "title": "Melodies that soothe the soul",
+        "duration": 66884,
+        "created_at": "2023-09-28T06:29:47.556Z",
+        "updated_at": "2023-09-28T03:28:49.201Z",
+        "topic_id": "084f37e9-635e-4ae5-8250-c80a4d6f85bf",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ef3d113d-59a2-422e-8833-21d3e91f2f1f",
+        "title": "Rhythms that make you move",
+        "duration": 43727,
+        "created_at": "2023-09-28T01:47:01.294Z",
+        "updated_at": "2023-09-27T23:40:27.739Z",
+        "topic_id": "7bb692cb-97ae-4911-9f16-9c8d7d037392",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "23255435-461b-43ed-9cb3-2df49544a149",
+        "title": "Captivating voices and powerful lyrics",
+        "duration": 53840,
+        "created_at": "2023-09-27T19:30:15.950Z",
+        "updated_at": "2023-09-27T23:42:49.016Z",
+        "topic_id": "7bb692cb-97ae-4911-9f16-9c8d7d037392",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b0b43a8f-fb78-4e16-a65a-236948f5597b",
+        "title": "Sounds of nature in harmony",
+        "duration": 21108,
+        "created_at": "2023-09-27T12:12:59.972Z",
+        "updated_at": "2023-09-28T09:31:14.784Z",
+        "topic_id": "d9fd4b46-ad43-44a3-9400-2bceac952bb2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19dc5885-9af9-47a7-bc21-45c8f64828f2",
+        "title": "Exploring different genres and styles",
+        "duration": 51478,
+        "created_at": "2023-09-27T18:37:57.709Z",
+        "updated_at": "2023-09-27T20:59:17.334Z",
+        "topic_id": "084f37e9-635e-4ae5-8250-c80a4d6f85bf",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "808a7e7d-e652-4733-8434-923d7c246f90",
+        "email": "Karolann.Zieme86@roq.tech",
+        "firstName": "Theron",
+        "lastName": "Schinner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69538923",
+        "tenantId": null
+      },
+      {
+        "reference": "8a01de5e-e8ba-41cf-b763-1434800305b3",
+        "email": "Fae.Konopelski@roq.tech",
+        "firstName": "Roberta",
+        "lastName": "Armstrong-Dietrich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58483571",
+        "tenantId": null
+      },
+      {
+        "reference": "47754110-1c38-4cfd-8647-618988730591",
+        "email": "Lucile_Kihn60@roq.tech",
+        "firstName": "Garrick",
+        "lastName": "Ortiz-Altenwerth",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25564798",
+        "tenantId": null
+      },
+      {
+        "reference": "7a75b654-ae14-49ce-954a-841b94ec6dc3",
+        "email": "Jaylen.Russel@roq.tech",
+        "firstName": "Rashawn",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/498.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2cd18adc-8baa-4bfd-b981-355951b71a8d",
+        "email": "Kory31@roq.tech",
+        "firstName": "Lucio",
+        "lastName": "Gerlach",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54288707",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "1caa3ec9-d796-403e-82b6-fbc9f8bb2205",
+        "title": "Science",
+        "description": "Exploring the wonders of the universe",
+        "created_at": "2023-09-27T16:14:28.984Z",
+        "updated_at": "2023-09-28T09:35:32.252Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f47f4e6f-aa63-4497-a01e-e7938a0c8596",
+        "title": "History",
+        "description": "Unraveling the mysteries of the past",
+        "created_at": "2023-09-28T01:52:38.145Z",
+        "updated_at": "2023-09-27T12:25:41.454Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18343a92-3bd5-4e4e-9d94-22da83ce7b71",
+        "title": "Mathematics",
+        "description": "Solving complex equations",
+        "created_at": "2023-09-27T13:00:23.811Z",
+        "updated_at": "2023-09-28T03:57:53.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15183fc3-88f5-4e67-9824-b74359ecfc48",
+        "title": "Literature",
+        "description": "Appreciating great literary works",
+        "created_at": "2023-09-27T16:06:37.648Z",
+        "updated_at": "2023-09-28T07:33:33.265Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4f2a35cb-75b5-4277-8899-29d011dffca9",
+        "title": "Art",
+        "description": "Expressing creativity through art",
+        "created_at": "2023-09-27T11:36:46.040Z",
+        "updated_at": "2023-09-28T02:29:58.230Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "b79eff2f-83e3-4731-8b23-75cf6e209cc9",
+        "title": "Sunset at the beach",
+        "description": "Vibrant colors painted across the sky",
+        "created_at": "2023-09-27T16:30:42.549Z",
+        "updated_at": "2023-09-28T02:33:14.862Z",
+        "topic_id": "15183fc3-88f5-4e67-9824-b74359ecfc48",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6cbc73d1-462e-41d0-b1b4-19bccd72d2c1",
+        "title": "City skyline at night",
+        "description": "Glimmering lights illuminating the urban landscape",
+        "created_at": "2023-09-28T09:57:20.537Z",
+        "updated_at": "2023-09-27T12:45:31.708Z",
+        "topic_id": "4f2a35cb-75b5-4277-8899-29d011dffca9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb7d9044-f998-416e-a6f7-dc3cdb4ed858",
+        "title": "Beautiful nature landscape",
+        "description": "Serene scenes of untouched natural beauty",
+        "created_at": "2023-09-27T15:44:23.163Z",
+        "updated_at": "2023-09-27T23:12:33.223Z",
+        "topic_id": "18343a92-3bd5-4e4e-9d94-22da83ce7b71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00561c25-382d-4016-8f76-2757fce0d0e2",
+        "title": "Capturing candid moments",
+        "description": "Freezing time with every click of the shutter",
+        "created_at": "2023-09-28T07:52:51.477Z",
+        "updated_at": "2023-09-28T07:15:25.181Z",
+        "topic_id": "1caa3ec9-d796-403e-82b6-fbc9f8bb2205",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd8076d7-7952-4704-bd52-646a216c9bae",
+        "title": "Exploring architectural wonders",
+        "description": "Discovering the hidden beauty in everyday life",
+        "created_at": "2023-09-27T18:43:05.043Z",
+        "updated_at": "2023-09-27T11:25:19.075Z",
+        "topic_id": "15183fc3-88f5-4e67-9824-b74359ecfc48",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "2f0c84fa-1e2e-4689-b4dc-8ed9c1c106de",
+        "content": "Important reminders for the day",
+        "created_at": "2023-09-28T07:45:58.934Z",
+        "updated_at": "2023-09-27T15:40:08.218Z",
+        "topic_id": "1caa3ec9-d796-403e-82b6-fbc9f8bb2205",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8c93ed90-5cbe-41d3-990d-b20e5dbece66",
+        "content": "Thoughts and reflections on life",
+        "created_at": "2023-09-28T07:16:05.102Z",
+        "updated_at": "2023-09-27T14:35:24.839Z",
+        "topic_id": "18343a92-3bd5-4e4e-9d94-22da83ce7b71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b044fb4-6474-4ba6-9f65-6b6eeb22e8ed",
+        "content": "Ideas and inspirations for future projects",
+        "created_at": "2023-09-27T17:37:36.335Z",
+        "updated_at": "2023-09-27T14:56:53.851Z",
+        "topic_id": "1caa3ec9-d796-403e-82b6-fbc9f8bb2205",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1db3ec14-29e8-4118-83f3-1dee6aed7f1f",
+        "content": "Capturing fleeting moments of inspiration",
+        "created_at": "2023-09-28T03:48:04.087Z",
+        "updated_at": "2023-09-27T23:20:50.054Z",
+        "topic_id": "f47f4e6f-aa63-4497-a01e-e7938a0c8596",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1c66dcb-5212-462e-812b-c9312126bfa5",
+        "content": "Personal musings and observations",
+        "created_at": "2023-09-28T01:41:52.254Z",
+        "updated_at": "2023-09-28T02:00:53.369Z",
+        "topic_id": "15183fc3-88f5-4e67-9824-b74359ecfc48",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "753d18a6-6479-459b-9d9f-b4a58bbc0bbe",
+        "title": "Melodies that soothe the soul",
+        "duration": 35967,
+        "created_at": "2023-09-27T14:57:32.504Z",
+        "updated_at": "2023-09-27T12:09:18.238Z",
+        "topic_id": "f47f4e6f-aa63-4497-a01e-e7938a0c8596",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09dac201-4ec0-4a0e-92b9-2d9c0db705f3",
+        "title": "Rhythms that make you move",
+        "duration": 67057,
+        "created_at": "2023-09-28T08:03:17.970Z",
+        "updated_at": "2023-09-28T03:38:23.215Z",
+        "topic_id": "1caa3ec9-d796-403e-82b6-fbc9f8bb2205",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5c731964-4cda-4a4e-a976-1fbad690e3cc",
+        "title": "Harmonies that ignite emotions",
+        "duration": 70669,
+        "created_at": "2023-09-27T17:26:08.504Z",
+        "updated_at": "2023-09-27T19:16:21.917Z",
+        "topic_id": "18343a92-3bd5-4e4e-9d94-22da83ce7b71",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3e7eccc2-5226-48ff-aa1a-5d17aa68fbaa",
+        "title": "Exploring the power of sound",
+        "duration": 88471,
+        "created_at": "2023-09-27T19:28:38.260Z",
+        "updated_at": "2023-09-27T12:10:26.820Z",
+        "topic_id": "15183fc3-88f5-4e67-9824-b74359ecfc48",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d2931ddf-4f60-4cf5-8807-79bc6c6ae3ce",
+        "title": "Creating symphonies of life",
+        "duration": 84339,
+        "created_at": "2023-09-27T15:38:57.137Z",
+        "updated_at": "2023-09-27T18:35:45.250Z",
+        "topic_id": "15183fc3-88f5-4e67-9824-b74359ecfc48",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ebca984f-0d44-44fd-8169-2b28984c0abc",
+        "email": "Meredith_Lebsack28@roq.tech",
+        "firstName": "Domenica",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/683.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "df033687-d7e4-41df-8ea0-0c77c6d94240",
+        "email": "Isaias_Wunsch@roq.tech",
+        "firstName": "Eino",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/30542423",
+        "tenantId": null
+      },
+      {
+        "reference": "30ec0b0d-9e65-4035-9414-f0c8e0cb49de",
+        "email": "Khalid.West31@roq.tech",
+        "firstName": "Eddie",
+        "lastName": "Zieme",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18559351",
+        "tenantId": null
+      },
+      {
+        "reference": "7b0b5fee-5188-46a4-867c-6490bb94ec01",
+        "email": "Amara_Metz48@roq.tech",
+        "firstName": "Wilma",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87303687",
+        "tenantId": null
+      },
+      {
+        "reference": "158e0870-3e03-4e2f-bd92-14ec0aa68eed",
+        "email": "Antonia_Wyman27@roq.tech",
+        "firstName": "Colin",
+        "lastName": "Bergnaum",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/52.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "89b8d607-b2aa-4673-b238-632bd08f23b2",
+        "title": "Introduction to Biology",
+        "description": "Explore the fundamental concepts of biology.",
+        "created_at": "2023-09-27T17:06:59.665Z",
+        "updated_at": "2023-09-27T13:43:59.546Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "917ebf36-def3-45f8-837d-1d98dfbcbf10",
+        "title": "History of Ancient Civilizations",
+        "description": "Learn about the rise and fall of ancient civilizations.",
+        "created_at": "2023-09-28T02:53:50.784Z",
+        "updated_at": "2023-09-27T23:31:10.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "06aa1290-7438-4797-b1f1-4a4ed040b8b7",
+        "title": "Artificial Intelligence in Healthcare",
+        "description": "Discover how AI is transforming the healthcare industry.",
+        "created_at": "2023-09-27T12:10:27.918Z",
+        "updated_at": "2023-09-27T20:13:04.574Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0386bcc-2c1f-4ffe-a44b-5f19bb39a226",
+        "title": "Climate Change and Sustainability",
+        "description": "Understand the impact of climate change on our planet.",
+        "created_at": "2023-09-27T20:29:38.641Z",
+        "updated_at": "2023-09-27T17:49:32.356Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98407d63-8db0-4421-a0f8-f79717df60c9",
+        "title": "The Psychology of Happiness",
+        "description": "Explore the science behind happiness and well-being.",
+        "created_at": "2023-09-27T21:01:34.942Z",
+        "updated_at": "2023-09-27T22:48:04.738Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "a1a5af7f-b480-4700-8e70-6e400aebba8e",
+        "title": "Sunset at the Beach",
+        "description": "A breathtaking sunset view by the beach.",
+        "created_at": "2023-09-28T07:46:21.960Z",
+        "updated_at": "2023-09-28T08:27:28.690Z",
+        "topic_id": "89b8d607-b2aa-4673-b238-632bd08f23b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8df9a57d-0e01-46ec-b89a-a9ea3af0897b",
+        "title": "Cityscape at Night",
+        "description": "The mesmerizing city lights during the night.",
+        "created_at": "2023-09-27T21:44:13.448Z",
+        "updated_at": "2023-09-28T08:26:57.034Z",
+        "topic_id": "89b8d607-b2aa-4673-b238-632bd08f23b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4c4b005-c126-42d9-8934-3d4e173c2cbe",
+        "title": "Nature's Beauty",
+        "description": "Explore the beauty of nature through photography.",
+        "created_at": "2023-09-28T10:42:59.060Z",
+        "updated_at": "2023-09-28T00:37:34.972Z",
+        "topic_id": "06aa1290-7438-4797-b1f1-4a4ed040b8b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ceb0d931-1bf5-42a4-b76a-b42930c5fce0",
+        "title": "Urban Exploration",
+        "description": "Discover hidden gems in urban landscapes.",
+        "created_at": "2023-09-27T21:20:16.622Z",
+        "updated_at": "2023-09-28T01:14:15.324Z",
+        "topic_id": "06aa1290-7438-4797-b1f1-4a4ed040b8b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdc8826a-7993-4db9-987d-f6791ecd6f62",
+        "title": "Capturing Moments",
+        "description": "Capture special moments and create lasting memories.",
+        "created_at": "2023-09-28T01:14:47.402Z",
+        "updated_at": "2023-09-28T10:28:33.863Z",
+        "topic_id": "98407d63-8db0-4421-a0f8-f79717df60c9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "19388369-1254-474a-aff4-c5a2d177e45c",
+        "content": "Important points to remember for the exam.",
+        "created_at": "2023-09-27T14:04:59.670Z",
+        "updated_at": "2023-09-27T20:41:49.543Z",
+        "topic_id": "a0386bcc-2c1f-4ffe-a44b-5f19bb39a226",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "98a7d53a-4948-4ff4-97e4-775eb067160b",
+        "content": "Key insights from the lecture.",
+        "created_at": "2023-09-28T02:27:39.718Z",
+        "updated_at": "2023-09-28T07:57:54.754Z",
+        "topic_id": "917ebf36-def3-45f8-837d-1d98dfbcbf10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "969c43b6-0813-4d6d-8616-76c2c68a4c0e",
+        "content": "Thoughts and reflections on a specific topic.",
+        "created_at": "2023-09-27T12:47:05.587Z",
+        "updated_at": "2023-09-27T21:05:09.936Z",
+        "topic_id": "917ebf36-def3-45f8-837d-1d98dfbcbf10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47a0fd8e-4059-4adf-b2b4-98dd8a049a1a",
+        "content": "Personal observations and analysis.",
+        "created_at": "2023-09-28T10:25:36.194Z",
+        "updated_at": "2023-09-27T15:31:06.416Z",
+        "topic_id": "06aa1290-7438-4797-b1f1-4a4ed040b8b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "862f9085-4de1-4d6a-8a32-6045d0570260",
+        "content": "Ideas and brainstorming for future projects.",
+        "created_at": "2023-09-27T17:44:15.577Z",
+        "updated_at": "2023-09-27T13:57:12.869Z",
+        "topic_id": "89b8d607-b2aa-4673-b238-632bd08f23b2",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "a19cd08a-cee3-471e-a8b4-4ac47d1f079b",
+        "title": "Melodies of Nature",
+        "duration": 18118,
+        "created_at": "2023-09-28T08:29:48.748Z",
+        "updated_at": "2023-09-28T10:02:00.400Z",
+        "topic_id": "a0386bcc-2c1f-4ffe-a44b-5f19bb39a226",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75c6a363-25dd-4758-aa21-f2543a56e3e6",
+        "title": "Rhythms of the City",
+        "duration": 90843,
+        "created_at": "2023-09-28T09:55:19.599Z",
+        "updated_at": "2023-09-28T02:30:24.214Z",
+        "topic_id": "06aa1290-7438-4797-b1f1-4a4ed040b8b7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a1261a0f-1a3d-48fa-8c85-d1db8ae2533b",
+        "title": "Soothing Jazz Tunes",
+        "duration": 35333,
+        "created_at": "2023-09-28T02:32:58.584Z",
+        "updated_at": "2023-09-28T09:38:43.232Z",
+        "topic_id": "89b8d607-b2aa-4673-b238-632bd08f23b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e52283c2-b474-4ba9-b43f-e2b48b1cede0",
+        "title": "Energetic Rock Anthems",
+        "duration": 70872,
+        "created_at": "2023-09-27T19:20:21.676Z",
+        "updated_at": "2023-09-27T19:16:15.126Z",
+        "topic_id": "917ebf36-def3-45f8-837d-1d98dfbcbf10",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df3b3a96-366d-460f-836f-6fbf3bab1a2f",
+        "title": "Classical Masterpieces",
+        "duration": 84154,
+        "created_at": "2023-09-28T01:56:35.856Z",
+        "updated_at": "2023-09-28T06:04:18.607Z",
+        "topic_id": "06aa1290-7438-4797-b1f1-4a4ed040b8b7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "310d9fd4-eb6d-46f3-80af-c4ce198debae",
+        "email": "Jeremy5@roq.tech",
+        "firstName": "Branson",
+        "lastName": "Beier",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0e3b7776-7388-42e3-bc9d-3bb0151c449b",
+        "email": "Fatima.Pollich41@roq.tech",
+        "firstName": "Alana",
+        "lastName": "Ankunding",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/393.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a7393e87-300b-44ea-b272-4d234ceb51ee",
+        "email": "Linnea_Price@roq.tech",
+        "firstName": "Christa",
+        "lastName": "Stehr",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/501.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8329131d-289c-4a42-a725-e6dac60a2ab5",
+        "email": "Ashlynn98@roq.tech",
+        "firstName": "Myrtis",
+        "lastName": "Sawayn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50750257",
+        "tenantId": null
+      },
+      {
+        "reference": "4d338c31-14ac-4c74-b514-27554d74e310",
+        "email": "Jayson92@roq.tech",
+        "firstName": "Erich",
+        "lastName": "Douglas",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34808950",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "9120a4b0-2403-4d7b-a214-46ecaebb5214",
+        "title": "Science",
+        "description": "Exploring the wonders of the universe",
+        "created_at": "2023-09-27T12:52:04.919Z",
+        "updated_at": "2023-09-27T23:35:14.217Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a43897ca-9f56-4051-985d-f6358041c474",
+        "title": "History",
+        "description": "Unraveling the mysteries of the past",
+        "created_at": "2023-09-28T06:23:23.661Z",
+        "updated_at": "2023-09-27T14:54:20.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ecb7a625-e6f9-4a9d-9362-decb6da5c285",
+        "title": "Mathematics",
+        "description": "Solving complex equations",
+        "created_at": "2023-09-27T16:57:15.118Z",
+        "updated_at": "2023-09-27T21:26:31.361Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf86b584-9b24-4d3f-b270-f415bfad5478",
+        "title": "Literature",
+        "description": "Appreciating great works of literature",
+        "created_at": "2023-09-27T13:11:10.362Z",
+        "updated_at": "2023-09-28T09:04:14.202Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0be4eb9-8f20-49c0-abc5-1e0786ab6b94",
+        "title": "Art",
+        "description": "Expressing creativity through art",
+        "created_at": "2023-09-28T01:51:57.513Z",
+        "updated_at": "2023-09-28T08:39:28.130Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "2051f522-8f57-456a-a274-8b5af45f7592",
+        "title": "Sunset at the beach",
+        "description": "Capturing the beauty of nature",
+        "created_at": "2023-09-27T15:37:34.698Z",
+        "updated_at": "2023-09-27T19:40:08.128Z",
+        "topic_id": "a43897ca-9f56-4051-985d-f6358041c474",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "371020ec-2c90-42d0-92ed-eca203ae21cb",
+        "title": "City skyline at night",
+        "description": "Reflecting the hustle and bustle of urban life",
+        "created_at": "2023-09-27T18:31:42.780Z",
+        "updated_at": "2023-09-27T16:12:39.300Z",
+        "topic_id": "9120a4b0-2403-4d7b-a214-46ecaebb5214",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "36a21603-17aa-4315-89d8-ae5a8b3d4d6c",
+        "title": "Majestic mountain range",
+        "description": "Conveying the grandeur of natural landscapes",
+        "created_at": "2023-09-28T06:24:13.675Z",
+        "updated_at": "2023-09-27T19:58:05.505Z",
+        "topic_id": "bf86b584-9b24-4d3f-b270-f415bfad5478",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ba9ac6d9-431c-4914-b22e-f7d14f1d06c7",
+        "title": "Colorful autumn foliage",
+        "description": "Celebrating the changing seasons",
+        "created_at": "2023-09-28T09:10:40.570Z",
+        "updated_at": "2023-09-28T06:00:27.660Z",
+        "topic_id": "9120a4b0-2403-4d7b-a214-46ecaebb5214",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f956b9b8-0866-4521-ac65-5192b65a3ba5",
+        "title": "Serene lake surrounded by nature",
+        "description": "Elevating the ordinary into the extraordinary",
+        "created_at": "2023-09-27T19:47:48.416Z",
+        "updated_at": "2023-09-28T06:00:25.833Z",
+        "topic_id": "d0be4eb9-8f20-49c0-abc5-1e0786ab6b94",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "26991626-7c4a-4c86-8051-344e8e975381",
+        "content": "Remember to bring your umbrella",
+        "created_at": "2023-09-27T15:10:32.187Z",
+        "updated_at": "2023-09-28T00:10:13.430Z",
+        "topic_id": "a43897ca-9f56-4051-985d-f6358041c474",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0242b2de-b874-4701-aaf1-e3fac30796be",
+        "content": "Study hard for the upcoming exam",
+        "created_at": "2023-09-27T21:00:25.822Z",
+        "updated_at": "2023-09-27T15:45:42.246Z",
+        "topic_id": "bf86b584-9b24-4d3f-b270-f415bfad5478",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94a1a3db-2afc-4156-8c05-a70d47778018",
+        "content": "Cherish every moment with loved ones",
+        "created_at": "2023-09-27T21:23:01.539Z",
+        "updated_at": "2023-09-28T00:42:40.577Z",
+        "topic_id": "d0be4eb9-8f20-49c0-abc5-1e0786ab6b94",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "90e8326c-d76e-4fb6-bd32-3350832df1ff",
+        "content": "Stay positive and believe in yourself",
+        "created_at": "2023-09-27T15:21:03.993Z",
+        "updated_at": "2023-09-27T16:47:03.473Z",
+        "topic_id": "bf86b584-9b24-4d3f-b270-f415bfad5478",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a823ed52-3fc3-4dd9-84f5-b179313575a2",
+        "content": "Embrace new challenges and opportunities",
+        "created_at": "2023-09-27T16:06:11.948Z",
+        "updated_at": "2023-09-27T17:33:57.677Z",
+        "topic_id": "ecb7a625-e6f9-4a9d-9362-decb6da5c285",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "1fe081d2-396b-4775-bd27-ac7062b9a103",
+        "title": "Melodies of the wind",
+        "duration": 27759,
+        "created_at": "2023-09-28T06:38:24.285Z",
+        "updated_at": "2023-09-28T09:34:25.856Z",
+        "topic_id": "a43897ca-9f56-4051-985d-f6358041c474",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2469cefd-0c59-4f80-a050-57b64b89fb0a",
+        "title": "Rhythms of the rain",
+        "duration": 54792,
+        "created_at": "2023-09-27T22:47:28.089Z",
+        "updated_at": "2023-09-27T19:39:33.990Z",
+        "topic_id": "ecb7a625-e6f9-4a9d-9362-decb6da5c285",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09b9b956-c3cc-487d-b6d7-5cd863bec37e",
+        "title": "Harmony of the ocean",
+        "duration": 11361,
+        "created_at": "2023-09-28T06:47:47.975Z",
+        "updated_at": "2023-09-28T09:43:22.043Z",
+        "topic_id": "d0be4eb9-8f20-49c0-abc5-1e0786ab6b94",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "287e1092-093e-4460-93c9-faab923619f1",
+        "title": "Symphony of the forest",
+        "duration": 71068,
+        "created_at": "2023-09-28T00:49:29.556Z",
+        "updated_at": "2023-09-28T04:53:18.610Z",
+        "topic_id": "bf86b584-9b24-4d3f-b270-f415bfad5478",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1df81e90-27e1-47b2-b7a4-779df1308d4d",
+        "title": "Serenade of the night",
+        "duration": 43027,
+        "created_at": "2023-09-27T23:28:47.291Z",
+        "updated_at": "2023-09-27T14:16:37.381Z",
+        "topic_id": "ecb7a625-e6f9-4a9d-9362-decb6da5c285",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c9025165-a441-4444-a1c7-a1e77dbc80c9",
+        "email": "Lynn_Nikolaus92@roq.tech",
+        "firstName": "Elmo",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/783.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "97726d54-b792-449f-80e9-6b38a7b36d63",
+        "email": "Kiera_Bailey90@roq.tech",
+        "firstName": "Madonna",
+        "lastName": "Dicki-Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95224420",
+        "tenantId": null
+      },
+      {
+        "reference": "8b9694f7-73af-447c-ad22-189b4f44f862",
+        "email": "Bernardo_Terry@roq.tech",
+        "firstName": "Ola",
+        "lastName": "Pfeffer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44144772",
+        "tenantId": null
+      },
+      {
+        "reference": "2b245619-8b46-4885-a32e-c1b508917cbc",
+        "email": "Jon57@roq.tech",
+        "firstName": "Shaylee",
+        "lastName": "Blick",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86388140",
+        "tenantId": null
+      },
+      {
+        "reference": "e97bd2b5-4dfa-4abe-8cd4-73546307a477",
+        "email": "Emma_Schneider@roq.tech",
+        "firstName": "Abigayle",
+        "lastName": "Gislason",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81411523",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "c7330793-892f-4067-9ff1-7b281ee9d6a7",
+        "title": "Introduction to Biology",
+        "description": "Explore the world of living organisms",
+        "created_at": "2023-09-27T19:38:17.168Z",
+        "updated_at": "2023-09-27T12:27:41.187Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f4370f8-609c-454b-bf7b-9592a1d25b22",
+        "title": "History of Art",
+        "description": "Discover the evolution of art throughout history",
+        "created_at": "2023-09-27T23:01:15.096Z",
+        "updated_at": "2023-09-28T05:56:17.763Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab363dad-9ce2-4a41-871d-8b4de238360e",
+        "title": "Computer Science Fundamentals",
+        "description": "Learn the basics of programming and algorithms",
+        "created_at": "2023-09-27T17:44:25.958Z",
+        "updated_at": "2023-09-27T14:58:44.781Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fcd50692-b4c8-440f-b804-bcbaec5b01da",
+        "title": "Literary Analysis",
+        "description": "Analyze and interpret works of literature",
+        "created_at": "2023-09-28T10:46:37.981Z",
+        "updated_at": "2023-09-28T03:46:51.483Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c8f5a012-375b-429e-ad5a-d4d6780a5770",
+        "title": "Environmental Sustainability",
+        "description": "Understand the importance of protecting the environment",
+        "created_at": "2023-09-28T04:12:20.124Z",
+        "updated_at": "2023-09-28T02:34:54.044Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "5cb518a6-0de2-47ae-bd2c-abdc5d64ca70",
+        "title": "Sunset at the Beach",
+        "description": "A breathtaking view of the sun setting over the ocean",
+        "created_at": "2023-09-27T20:11:06.252Z",
+        "updated_at": "2023-09-28T10:38:30.413Z",
+        "topic_id": "6f4370f8-609c-454b-bf7b-9592a1d25b22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab93035a-77ec-45d8-80a3-723311f83664",
+        "title": "Urban Exploration",
+        "description": "Discovering hidden gems in the city",
+        "created_at": "2023-09-27T20:13:41.684Z",
+        "updated_at": "2023-09-27T21:57:57.217Z",
+        "topic_id": "c8f5a012-375b-429e-ad5a-d4d6780a5770",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69ff2fb1-8d36-4a76-8832-c6fca8b67152",
+        "title": "Nature's Beauty",
+        "description": "Appreciating the wonders of the natural world",
+        "created_at": "2023-09-28T01:24:30.815Z",
+        "updated_at": "2023-09-27T21:25:36.866Z",
+        "topic_id": "6f4370f8-609c-454b-bf7b-9592a1d25b22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "742e85bc-6017-4ca7-9f4e-a812597df2f2",
+        "title": "City Lights",
+        "description": "The vibrant lights of a bustling cityscape",
+        "created_at": "2023-09-28T02:29:21.047Z",
+        "updated_at": "2023-09-28T08:14:43.505Z",
+        "topic_id": "fcd50692-b4c8-440f-b804-bcbaec5b01da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c286819e-bebd-4509-a0c7-41e2d413d92e",
+        "title": "Capturing Moments",
+        "description": "Preserving memories through photography",
+        "created_at": "2023-09-28T09:47:08.626Z",
+        "updated_at": "2023-09-27T22:33:29.526Z",
+        "topic_id": "fcd50692-b4c8-440f-b804-bcbaec5b01da",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "0b3dd431-4960-4775-b2d7-24f443cd239f",
+        "content": "Important points to remember for the exam",
+        "created_at": "2023-09-28T08:35:15.621Z",
+        "updated_at": "2023-09-28T06:31:38.403Z",
+        "topic_id": "ab363dad-9ce2-4a41-871d-8b4de238360e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "348e5422-1f39-476d-b798-2950e0bceed4",
+        "content": "Thoughts and reflections on a recent experience",
+        "created_at": "2023-09-28T01:28:33.213Z",
+        "updated_at": "2023-09-28T02:41:18.760Z",
+        "topic_id": "c8f5a012-375b-429e-ad5a-d4d6780a5770",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "64d2b95e-8009-4b4b-9db1-2c4e8658f076",
+        "content": "Key insights from a lecture or presentation",
+        "created_at": "2023-09-27T19:15:08.479Z",
+        "updated_at": "2023-09-28T08:31:33.981Z",
+        "topic_id": "6f4370f8-609c-454b-bf7b-9592a1d25b22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fff0e9d3-0982-451c-8d58-ab01c1a5955a",
+        "content": "Ideas for a future project or assignment",
+        "created_at": "2023-09-28T02:55:42.990Z",
+        "updated_at": "2023-09-28T00:25:49.600Z",
+        "topic_id": "6f4370f8-609c-454b-bf7b-9592a1d25b22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54c7010f-a9be-466a-9aec-e87b8af2b8dc",
+        "content": "Personal observations and reflections",
+        "created_at": "2023-09-28T00:29:54.533Z",
+        "updated_at": "2023-09-27T12:49:43.065Z",
+        "topic_id": "6f4370f8-609c-454b-bf7b-9592a1d25b22",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "8d359ebf-708a-4918-83ba-4426d6a289b3",
+        "title": "Melodies of the Past",
+        "duration": 16971,
+        "created_at": "2023-09-28T09:10:11.887Z",
+        "updated_at": "2023-09-28T05:25:30.159Z",
+        "topic_id": "fcd50692-b4c8-440f-b804-bcbaec5b01da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b0195d4-fdef-49fc-993d-1373095ca782",
+        "title": "Rhythms of the World",
+        "duration": 69476,
+        "created_at": "2023-09-27T21:51:20.495Z",
+        "updated_at": "2023-09-28T04:03:55.216Z",
+        "topic_id": "c8f5a012-375b-429e-ad5a-d4d6780a5770",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ca47c611-f614-444d-9bca-1c3fd5c49043",
+        "title": "Harmonious Journey",
+        "duration": 70357,
+        "created_at": "2023-09-28T08:01:38.478Z",
+        "updated_at": "2023-09-27T11:10:13.479Z",
+        "topic_id": "6f4370f8-609c-454b-bf7b-9592a1d25b22",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91f3a42d-bb6a-422b-99f0-c154a1cd7f95",
+        "title": "Musical Expressions",
+        "duration": 13711,
+        "created_at": "2023-09-27T12:17:53.474Z",
+        "updated_at": "2023-09-27T22:45:18.530Z",
+        "topic_id": "c7330793-892f-4067-9ff1-7b281ee9d6a7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0bb8b1fd-6595-42be-8865-5501b3ddaf24",
+        "title": "Soothing Melodies",
+        "duration": 23192,
+        "created_at": "2023-09-27T13:52:13.772Z",
+        "updated_at": "2023-09-27T17:14:51.525Z",
+        "topic_id": "c7330793-892f-4067-9ff1-7b281ee9d6a7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "2c03df64-5c5c-40f7-abd1-ea651881c1b0",
+        "email": "Joshuah.Macejkovic@roq.tech",
+        "firstName": "Hubert",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/695.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b1e02be1-8693-47c6-9c0f-652f4453c536",
+        "email": "Eve_Rice@roq.tech",
+        "firstName": "Reilly",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/89739714",
+        "tenantId": null
+      },
+      {
+        "reference": "34e72141-877f-414b-8038-dceb94162b56",
+        "email": "Asia.Ferry30@roq.tech",
+        "firstName": "Caleb",
+        "lastName": "Rolfson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39977292",
+        "tenantId": null
+      },
+      {
+        "reference": "7cc55116-1419-4c12-8115-c933dfe4e928",
+        "email": "Kayley25@roq.tech",
+        "firstName": "Emmitt",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1006.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1cf2e62c-6582-4a08-81eb-69b463df1010",
+        "email": "Monica_West@roq.tech",
+        "firstName": "Laron",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/465.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "97aeb866-17be-4ba4-b20e-cd43b046635b",
+        "title": "Science",
+        "description": "Exploring the wonders of the universe",
+        "created_at": "2023-09-27T14:06:48.309Z",
+        "updated_at": "2023-09-27T12:23:30.476Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "title": "History",
+        "description": "Unraveling the past",
+        "created_at": "2023-09-27T14:55:40.543Z",
+        "updated_at": "2023-09-27T13:00:18.696Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8aefbb89-114c-4a4b-9235-9f5e3bb12f56",
+        "title": "Mathematics",
+        "description": "Unlocking the secrets of numbers",
+        "created_at": "2023-09-28T10:50:48.875Z",
+        "updated_at": "2023-09-27T14:12:13.297Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "389f5687-fe50-4447-a35c-cc7f92c6a888",
+        "title": "Literature",
+        "description": "Appreciating great works of literature",
+        "created_at": "2023-09-27T14:14:24.975Z",
+        "updated_at": "2023-09-28T05:49:54.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35f4d50e-9326-454a-9e0c-d3f723d5dec1",
+        "title": "Art",
+        "description": "Expressing creativity through art",
+        "created_at": "2023-09-27T17:53:13.063Z",
+        "updated_at": "2023-09-28T02:25:56.964Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "3b5d62ad-59eb-47d3-b966-d4b17f2606c3",
+        "title": "Sunset at the beach",
+        "description": "Capturing the beauty of nature",
+        "created_at": "2023-09-28T08:28:51.662Z",
+        "updated_at": "2023-09-27T19:00:06.024Z",
+        "topic_id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "573022e7-6eec-424e-8173-e865dc614075",
+        "title": "Majestic mountain landscape",
+        "description": "Showcasing breathtaking landscapes",
+        "created_at": "2023-09-28T03:59:57.691Z",
+        "updated_at": "2023-09-28T05:58:52.149Z",
+        "topic_id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00c5da16-bafe-4923-becd-659d24a4de46",
+        "title": "Vibrant cityscape at night",
+        "description": "Documenting urban life",
+        "created_at": "2023-09-27T14:06:06.889Z",
+        "updated_at": "2023-09-28T08:19:49.887Z",
+        "topic_id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "899d26ed-4b7f-4288-a70f-ee18aa475e70",
+        "title": "Serene countryside view",
+        "description": "Celebrating the tranquility of rural areas",
+        "created_at": "2023-09-27T20:59:53.986Z",
+        "updated_at": "2023-09-27T23:10:10.899Z",
+        "topic_id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "588243ce-5673-4ec7-b489-195a9870542d",
+        "title": "Captivating wildlife photography",
+        "description": "Preserving the wonders of wildlife",
+        "created_at": "2023-09-27T11:11:24.065Z",
+        "updated_at": "2023-09-28T07:27:18.575Z",
+        "topic_id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "c16628ec-bffb-4c0a-b5e6-861d27542105",
+        "content": "Important meeting notes",
+        "created_at": "2023-09-27T23:01:45.870Z",
+        "updated_at": "2023-09-28T00:45:12.084Z",
+        "topic_id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1fb5761-6991-4deb-8819-e3cac0e71c44",
+        "content": "Thoughts and reflections",
+        "created_at": "2023-09-27T12:45:33.126Z",
+        "updated_at": "2023-09-28T09:34:51.465Z",
+        "topic_id": "8aefbb89-114c-4a4b-9235-9f5e3bb12f56",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b939d3e-d40b-4bbb-a6ec-b4e8decca696",
+        "content": "Study reminders",
+        "created_at": "2023-09-27T21:28:14.080Z",
+        "updated_at": "2023-09-28T05:33:17.536Z",
+        "topic_id": "389f5687-fe50-4447-a35c-cc7f92c6a888",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "76ffc1d9-adc2-4bdb-b3a3-93d677b893a2",
+        "content": "Creative ideas",
+        "created_at": "2023-09-28T03:08:47.016Z",
+        "updated_at": "2023-09-27T11:09:32.569Z",
+        "topic_id": "fec9b70b-021c-46f9-92ec-91c471d3cf83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9debe655-0fc2-4805-a418-01f18d590720",
+        "content": "Personal journal entries",
+        "created_at": "2023-09-27T22:14:38.846Z",
+        "updated_at": "2023-09-28T02:09:43.312Z",
+        "topic_id": "97aeb866-17be-4ba4-b20e-cd43b046635b",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "9434b701-79cb-487b-81f5-3d32d5cb5cdd",
+        "title": "Melodies of the soul",
+        "duration": 83515,
+        "created_at": "2023-09-27T13:25:28.886Z",
+        "updated_at": "2023-09-27T11:10:33.712Z",
+        "topic_id": "35f4d50e-9326-454a-9e0c-d3f723d5dec1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "115fbf3b-0b7f-4f59-9b23-dbbb1e6f51f9",
+        "title": "Rhythms of nature",
+        "duration": 80824,
+        "created_at": "2023-09-27T23:36:44.523Z",
+        "updated_at": "2023-09-27T17:53:20.871Z",
+        "topic_id": "97aeb866-17be-4ba4-b20e-cd43b046635b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4c04796-e279-4b7b-9fbb-caea845a4561",
+        "title": "Harmonious symphony",
+        "duration": 99823,
+        "created_at": "2023-09-28T08:01:52.586Z",
+        "updated_at": "2023-09-27T21:49:27.685Z",
+        "topic_id": "389f5687-fe50-4447-a35c-cc7f92c6a888",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d046e804-e041-4c01-b44e-651320a9ca0c",
+        "title": "Captivating musical composition",
+        "duration": 46955,
+        "created_at": "2023-09-27T16:29:43.640Z",
+        "updated_at": "2023-09-27T19:04:30.621Z",
+        "topic_id": "97aeb866-17be-4ba4-b20e-cd43b046635b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "004fd7d5-41cd-485c-91e8-ba656cddb611",
+        "title": "Soothing soundscape",
+        "duration": 81057,
+        "created_at": "2023-09-27T21:06:41.741Z",
+        "updated_at": "2023-09-28T04:46:37.480Z",
+        "topic_id": "35f4d50e-9326-454a-9e0c-d3f723d5dec1",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8c854717-fc33-47ae-933c-1fa46eec4810",
+        "email": "Chesley85@roq.tech",
+        "firstName": "Dorcas",
+        "lastName": "Johnston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18588431",
+        "tenantId": null
+      },
+      {
+        "reference": "e5656137-5565-41d5-a5b6-d4958dbe5b57",
+        "email": "Hilda_Windler-Hahn6@roq.tech",
+        "firstName": "Emma",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/696.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "699e6ba6-18db-4bef-87b6-d129a81adfdc",
+        "email": "Enid_Ward59@roq.tech",
+        "firstName": "Derek",
+        "lastName": "Mills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/339.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e69c872-f4f4-4635-b535-3f14ca7152ec",
+        "email": "Nina_Goodwin@roq.tech",
+        "firstName": "Donnie",
+        "lastName": "Quitzon",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1130763",
+        "tenantId": null
+      },
+      {
+        "reference": "430e17f6-6da8-4205-bfbe-976f9a22bb41",
+        "email": "Dejon.Hilll58@roq.tech",
+        "firstName": "Cassidy",
+        "lastName": "Price",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/700.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "1621f939-2357-4ad4-91ca-325ffdc39024",
+        "title": "Science",
+        "description": "Exploring the mysteries of the universe",
+        "created_at": "2023-09-27T19:50:17.756Z",
+        "updated_at": "2023-09-27T22:14:49.857Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2c897642-a84d-4e4f-909e-54ccf7dbeb83",
+        "title": "History",
+        "description": "Uncovering the past civilizations",
+        "created_at": "2023-09-27T16:42:05.773Z",
+        "updated_at": "2023-09-28T10:07:03.594Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "676b5c8d-895c-4a50-b62f-cc3940e038e2",
+        "title": "Mathematics",
+        "description": "Solving complex equations",
+        "created_at": "2023-09-27T15:34:46.460Z",
+        "updated_at": "2023-09-28T08:25:14.850Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "57f20d5b-7e61-4adb-9811-1f4887432b2a",
+        "title": "Literature",
+        "description": "Appreciating great literary works",
+        "created_at": "2023-09-28T03:17:25.468Z",
+        "updated_at": "2023-09-27T22:19:25.150Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4325d472-fa01-428e-9149-a35da881be75",
+        "title": "Art",
+        "description": "Expressing creativity through various mediums",
+        "created_at": "2023-09-28T06:23:25.526Z",
+        "updated_at": "2023-09-28T10:18:19.175Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "0ea55f3a-840e-4b1e-ae1e-527380a4419d",
+        "title": "Sunset at the beach",
+        "description": "Capturing the beauty of nature",
+        "created_at": "2023-09-27T21:25:29.652Z",
+        "updated_at": "2023-09-27T22:51:58.005Z",
+        "topic_id": "57f20d5b-7e61-4adb-9811-1f4887432b2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "846adc02-aaac-4a74-9b34-56fbed5dab76",
+        "title": "City skyline at night",
+        "description": "Documenting urban life",
+        "created_at": "2023-09-28T07:00:28.672Z",
+        "updated_at": "2023-09-27T13:48:39.075Z",
+        "topic_id": "676b5c8d-895c-4a50-b62f-cc3940e038e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8036163-ab97-4041-af01-1a29c1740f2e",
+        "title": "Beautiful landscapes",
+        "description": "Showcasing breathtaking scenery",
+        "created_at": "2023-09-27T11:33:52.511Z",
+        "updated_at": "2023-09-28T08:57:34.318Z",
+        "topic_id": "2c897642-a84d-4e4f-909e-54ccf7dbeb83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1476ce2a-20de-4842-be0d-486809c96eeb",
+        "title": "Candid moments",
+        "description": "Preserving precious memories",
+        "created_at": "2023-09-27T21:38:10.045Z",
+        "updated_at": "2023-09-28T02:30:47.654Z",
+        "topic_id": "2c897642-a84d-4e4f-909e-54ccf7dbeb83",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4c5f1a5f-4bd8-49e1-9d74-f89f208e3c00",
+        "title": "Architectural wonders",
+        "description": "Highlighting remarkable architectural designs",
+        "created_at": "2023-09-28T05:29:33.858Z",
+        "updated_at": "2023-09-28T10:09:59.306Z",
+        "topic_id": "57f20d5b-7e61-4adb-9811-1f4887432b2a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "2fc3ec89-31fb-4def-910c-beca66f6ba96",
+        "content": "Important points to remember",
+        "created_at": "2023-09-27T13:44:52.477Z",
+        "updated_at": "2023-09-28T06:58:07.206Z",
+        "topic_id": "676b5c8d-895c-4a50-b62f-cc3940e038e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ee3dae15-b8a8-4bf9-804d-7f91d82b4a12",
+        "content": "Key concepts and definitions",
+        "created_at": "2023-09-27T12:11:59.582Z",
+        "updated_at": "2023-09-28T02:20:00.754Z",
+        "topic_id": "1621f939-2357-4ad4-91ca-325ffdc39024",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "188ea2ac-f2a8-45bf-bea3-f5ea84806d1b",
+        "content": "Thought-provoking insights",
+        "created_at": "2023-09-27T18:14:29.990Z",
+        "updated_at": "2023-09-27T15:42:24.011Z",
+        "topic_id": "1621f939-2357-4ad4-91ca-325ffdc39024",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f18224b8-d9e6-4ee1-a05b-3825eee62c90",
+        "content": "In-depth analysis and explanations",
+        "created_at": "2023-09-28T05:20:58.937Z",
+        "updated_at": "2023-09-28T10:54:42.420Z",
+        "topic_id": "4325d472-fa01-428e-9149-a35da881be75",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ded8d17b-7fd0-46ba-ae4b-e993060cf445",
+        "content": "Useful tips and tricks",
+        "created_at": "2023-09-27T19:36:57.550Z",
+        "updated_at": "2023-09-28T07:58:43.454Z",
+        "topic_id": "1621f939-2357-4ad4-91ca-325ffdc39024",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "030094a8-6789-4390-b290-e9862cea86f6",
+        "title": "Melodies of the past",
+        "duration": 63712,
+        "created_at": "2023-09-27T15:09:37.891Z",
+        "updated_at": "2023-09-27T13:40:10.127Z",
+        "topic_id": "676b5c8d-895c-4a50-b62f-cc3940e038e2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "677c5b1e-5541-4c32-bf08-5e7f8e781b12",
+        "title": "Soothing sounds of nature",
+        "duration": 6496,
+        "created_at": "2023-09-27T22:41:16.696Z",
+        "updated_at": "2023-09-28T08:50:27.155Z",
+        "topic_id": "57f20d5b-7e61-4adb-9811-1f4887432b2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c7c29ea4-dafa-4372-b3f5-5cdb062f31d6",
+        "title": "Captivating storytelling",
+        "duration": 1008,
+        "created_at": "2023-09-27T17:56:49.245Z",
+        "updated_at": "2023-09-27T14:55:52.812Z",
+        "topic_id": "57f20d5b-7e61-4adb-9811-1f4887432b2a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c68ebeb-9072-4472-a775-5c9d7069a18d",
+        "title": "Energetic beats",
+        "duration": 89129,
+        "created_at": "2023-09-28T00:55:21.769Z",
+        "updated_at": "2023-09-28T09:45:52.763Z",
+        "topic_id": "1621f939-2357-4ad4-91ca-325ffdc39024",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2154820d-43a6-4c6b-8785-e103c3b06e19",
+        "title": "Inspiring speeches",
+        "duration": 3647,
+        "created_at": "2023-09-28T00:38:49.678Z",
+        "updated_at": "2023-09-28T06:55:12.911Z",
+        "topic_id": "2c897642-a84d-4e4f-909e-54ccf7dbeb83",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "01659c26-2905-42e9-be98-50a022a41ea9",
+        "email": "Catherine_Mohr@roq.tech",
+        "firstName": "Elias",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65780034",
+        "tenantId": null
+      },
+      {
+        "reference": "810a37b3-f729-409c-bbe8-eb27b8a15040",
+        "email": "Trudie.OConner@roq.tech",
+        "firstName": "Javier",
+        "lastName": "Nitzsche",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/698.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b73364b-54c8-4fbd-89e5-c3945632f6d4",
+        "email": "Shemar33@roq.tech",
+        "firstName": "Veronica",
+        "lastName": "Hartmann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/71320028",
+        "tenantId": null
+      },
+      {
+        "reference": "97bcdfc3-12e6-4d9a-bc91-3ebc88ac5d0f",
+        "email": "Letitia26@roq.tech",
+        "firstName": "Rosalee",
+        "lastName": "Bednar",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/7818989",
+        "tenantId": null
+      },
+      {
+        "reference": "1bc9ddfc-0577-4dc1-9289-ee57dde143ea",
+        "email": "Eldora_Brekke44@roq.tech",
+        "firstName": "Emely",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/9661113",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "7ecae499-9cec-41bf-bedf-e7045d01385d",
+        "title": "Science",
+        "description": "Exploring the wonders of the universe",
+        "created_at": "2023-09-28T08:46:25.271Z",
+        "updated_at": "2023-09-27T20:02:46.829Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97193e9b-2e51-41f1-92e6-0f9e38ecbeff",
+        "title": "History",
+        "description": "Unraveling the past",
+        "created_at": "2023-09-27T23:20:55.837Z",
+        "updated_at": "2023-09-27T15:25:30.770Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "948ea0c3-f351-4d7e-b867-836d7c3f2772",
+        "title": "Mathematics",
+        "description": "Solving complex equations",
+        "created_at": "2023-09-28T01:08:59.244Z",
+        "updated_at": "2023-09-28T04:22:27.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "473a3b39-712b-47d0-b85a-67fc8c0ef6be",
+        "title": "Literature",
+        "description": "Appreciating great works of literature",
+        "created_at": "2023-09-27T20:12:51.089Z",
+        "updated_at": "2023-09-28T04:19:01.834Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cbbb74dc-a467-4b03-ade8-4811ce9a8e01",
+        "title": "Art",
+        "description": "Expressing creativity through art",
+        "created_at": "2023-09-27T17:35:39.188Z",
+        "updated_at": "2023-09-28T01:41:06.486Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "5a15eea8-e4a8-45d9-a0cc-9272829e6e6e",
+        "title": "Sunset at the beach",
+        "description": "A breathtaking view of the sun setting over the ocean",
+        "created_at": "2023-09-27T12:12:36.547Z",
+        "updated_at": "2023-09-27T17:14:50.895Z",
+        "topic_id": "948ea0c3-f351-4d7e-b867-836d7c3f2772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99069f6d-7655-4273-843e-16954a0c77fe",
+        "title": "City skyline at night",
+        "description": "The vibrant lights of a bustling cityscape",
+        "created_at": "2023-09-27T16:39:55.555Z",
+        "updated_at": "2023-09-27T17:54:01.735Z",
+        "topic_id": "cbbb74dc-a467-4b03-ade8-4811ce9a8e01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5f6edf12-b2db-472e-b49c-ef3968fabd53",
+        "title": "Nature's beauty in full bloom",
+        "description": "Flowers in vivid colors, a symbol of life",
+        "created_at": "2023-09-28T01:54:32.319Z",
+        "updated_at": "2023-09-27T17:23:21.618Z",
+        "topic_id": "948ea0c3-f351-4d7e-b867-836d7c3f2772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77d17d55-5559-4e6a-bc7a-6fd4c5bb7d06",
+        "title": "Capturing candid moments",
+        "description": "Freezing moments of joy and spontaneity",
+        "created_at": "2023-09-27T11:49:21.857Z",
+        "updated_at": "2023-09-28T09:17:18.470Z",
+        "topic_id": "cbbb74dc-a467-4b03-ade8-4811ce9a8e01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "09217a29-8b05-431a-ba1d-c02bab48d427",
+        "title": "Exploring new perspectives",
+        "description": "Seeing the world from a different angle",
+        "created_at": "2023-09-28T11:03:01.375Z",
+        "updated_at": "2023-09-28T02:11:47.326Z",
+        "topic_id": "7ecae499-9cec-41bf-bedf-e7045d01385d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "67799746-6e00-4282-b4c2-39e8e3516384",
+        "content": "Important reminders for the day",
+        "created_at": "2023-09-28T04:37:46.615Z",
+        "updated_at": "2023-09-28T10:00:38.421Z",
+        "topic_id": "473a3b39-712b-47d0-b85a-67fc8c0ef6be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "00524417-1498-4f63-91c5-5e989756b2ea",
+        "content": "Thoughts and reflections on life",
+        "created_at": "2023-09-28T05:13:55.496Z",
+        "updated_at": "2023-09-27T22:05:47.002Z",
+        "topic_id": "948ea0c3-f351-4d7e-b867-836d7c3f2772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e63e6a8d-3819-49ab-8eaa-ca10d05aa177",
+        "content": "Ideas for future projects",
+        "created_at": "2023-09-27T20:48:24.914Z",
+        "updated_at": "2023-09-27T15:06:18.173Z",
+        "topic_id": "7ecae499-9cec-41bf-bedf-e7045d01385d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c3ace95a-5a93-4079-8d4f-53d9aa0ac10d",
+        "content": "Inspiring quotes and affirmations",
+        "created_at": "2023-09-28T04:24:37.263Z",
+        "updated_at": "2023-09-27T23:26:14.743Z",
+        "topic_id": "473a3b39-712b-47d0-b85a-67fc8c0ef6be",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ae690053-79ba-46a7-a9da-a82601880c50",
+        "content": "Personal observations and insights",
+        "created_at": "2023-09-27T20:32:07.401Z",
+        "updated_at": "2023-09-28T06:39:14.564Z",
+        "topic_id": "cbbb74dc-a467-4b03-ade8-4811ce9a8e01",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "4e835ddd-9981-4b8b-a169-3ca8c4efe148",
+        "title": "Melodies that touch the soul",
+        "duration": 58351,
+        "created_at": "2023-09-27T20:50:01.220Z",
+        "updated_at": "2023-09-27T17:13:34.342Z",
+        "topic_id": "948ea0c3-f351-4d7e-b867-836d7c3f2772",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ec64552a-a376-4236-941e-2a70e103637c",
+        "title": "Rhythms that make you move",
+        "duration": 93430,
+        "created_at": "2023-09-27T18:35:58.872Z",
+        "updated_at": "2023-09-28T00:10:18.379Z",
+        "topic_id": "7ecae499-9cec-41bf-bedf-e7045d01385d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "000e3837-4c83-4401-beea-8ab5ff1318c0",
+        "title": "Voices that resonate with emotion",
+        "duration": 31006,
+        "created_at": "2023-09-28T10:11:09.423Z",
+        "updated_at": "2023-09-27T12:11:21.544Z",
+        "topic_id": "7ecae499-9cec-41bf-bedf-e7045d01385d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6f8c3e47-f54e-4b09-8a58-80d1022c4078",
+        "title": "Exploring different genres",
+        "duration": 19182,
+        "created_at": "2023-09-27T22:41:39.488Z",
+        "updated_at": "2023-09-28T11:06:55.185Z",
+        "topic_id": "cbbb74dc-a467-4b03-ade8-4811ce9a8e01",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35611076-9337-48ed-9833-3863a6dfa0d3",
+        "title": "Creating harmonious compositions",
+        "duration": 44665,
+        "created_at": "2023-09-27T13:01:45.852Z",
+        "updated_at": "2023-09-27T15:33:26.412Z",
+        "topic_id": "473a3b39-712b-47d0-b85a-67fc8c0ef6be",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7235b5cf-577f-46cc-a9ef-ee3afcb1d6c1",
+        "email": "Kolby43@roq.tech",
+        "firstName": "Celia",
+        "lastName": "Abernathy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/58187656",
+        "tenantId": null
+      },
+      {
+        "reference": "250a9499-849a-44c6-8e48-0d09c7ab1e9c",
+        "email": "Dangelo99@roq.tech",
+        "firstName": "Jamir",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/372.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a31cad48-4c67-403a-8f47-27cd568c4f57",
+        "email": "Dandre.Stiedemann1@roq.tech",
+        "firstName": "Fabian",
+        "lastName": "Wiegand",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/191.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2b55893d-63a1-4128-83de-b6d0f760cd05",
+        "email": "Ivy73@roq.tech",
+        "firstName": "Malachi",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/12.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4d2a86d2-b5e8-49dd-94c3-110c1e688e1b",
+        "email": "Conrad_Stiedemann@roq.tech",
+        "firstName": "Webster",
+        "lastName": "Flatley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/295.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "45af240d-be14-4ead-bf4e-89d8b50acbf0",
+        "title": "History",
+        "description": "Explore the past",
+        "created_at": "2023-09-27T20:43:47.261Z",
+        "updated_at": "2023-09-27T11:16:39.980Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "59079737-67a8-41c1-89ff-d3868445b7af",
+        "title": "Science",
+        "description": "Discover the natural world",
+        "created_at": "2023-09-27T18:34:14.295Z",
+        "updated_at": "2023-09-28T07:49:02.094Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed18c5cf-af0c-41a6-b886-e9191de1d1f0",
+        "title": "Mathematics",
+        "description": "Solve complex equations",
+        "created_at": "2023-09-27T18:33:16.598Z",
+        "updated_at": "2023-09-28T04:28:51.752Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c449e5a3-8fec-442e-a2dd-8cdf6f988144",
+        "title": "Literature",
+        "description": "Immerse in great works of literature",
+        "created_at": "2023-09-27T12:13:41.366Z",
+        "updated_at": "2023-09-27T22:22:35.629Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fe8740f-9a69-4ced-bb31-6008dea828fe",
+        "title": "Art",
+        "description": "Appreciate artistic expressions",
+        "created_at": "2023-09-28T02:39:53.912Z",
+        "updated_at": "2023-09-28T01:22:31.831Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "960c7f5f-b2be-4c50-bf65-aa651f7af5e1",
+        "title": "Sunset",
+        "description": "Capturing the beauty of the setting sun",
+        "created_at": "2023-09-27T17:24:19.770Z",
+        "updated_at": "2023-09-28T06:50:06.784Z",
+        "topic_id": "ed18c5cf-af0c-41a6-b886-e9191de1d1f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "08dc1138-8d04-4d0d-8eef-11b132a29884",
+        "title": "Nature's Beauty",
+        "description": "Showcasing the wonders of the natural world",
+        "created_at": "2023-09-27T12:47:57.283Z",
+        "updated_at": "2023-09-27T18:46:41.733Z",
+        "topic_id": "45af240d-be14-4ead-bf4e-89d8b50acbf0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "596e13d4-4a5d-4a52-9934-adbb5c3113e0",
+        "title": "Urban Exploration",
+        "description": "Exploring the city through photography",
+        "created_at": "2023-09-27T11:49:11.330Z",
+        "updated_at": "2023-09-27T22:38:04.969Z",
+        "topic_id": "1fe8740f-9a69-4ced-bb31-6008dea828fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b514d6b4-d78f-495c-b9e5-ee842f470d20",
+        "title": "Portraits",
+        "description": "Portraying the essence of individuals",
+        "created_at": "2023-09-28T06:53:23.289Z",
+        "updated_at": "2023-09-28T04:12:24.116Z",
+        "topic_id": "ed18c5cf-af0c-41a6-b886-e9191de1d1f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d19e9393-fed9-4f62-a640-d9b53b494425",
+        "title": "Abstract Forms",
+        "description": "Expressing creativity through abstract compositions",
+        "created_at": "2023-09-28T09:55:19.425Z",
+        "updated_at": "2023-09-27T18:32:43.246Z",
+        "topic_id": "1fe8740f-9a69-4ced-bb31-6008dea828fe",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "71ac16de-ce39-4f66-a072-d360fae42398",
+        "content": "Important points to remember",
+        "created_at": "2023-09-27T16:44:39.866Z",
+        "updated_at": "2023-09-27T19:25:18.432Z",
+        "topic_id": "45af240d-be14-4ead-bf4e-89d8b50acbf0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0b2fba41-52fc-4ca5-b464-b0d3334d6c65",
+        "content": "Key concepts explained",
+        "created_at": "2023-09-28T02:20:28.876Z",
+        "updated_at": "2023-09-27T20:19:57.847Z",
+        "topic_id": "ed18c5cf-af0c-41a6-b886-e9191de1d1f0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47fb7af4-d7db-454b-b4bb-ffc32a8b6917",
+        "content": "In-depth analysis and observations",
+        "created_at": "2023-09-27T12:49:44.391Z",
+        "updated_at": "2023-09-27T21:09:09.776Z",
+        "topic_id": "59079737-67a8-41c1-89ff-d3868445b7af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "acc1c317-5333-4292-8cbb-34c08ba1dc40",
+        "content": "Thought-provoking ideas",
+        "created_at": "2023-09-27T20:35:27.817Z",
+        "updated_at": "2023-09-27T20:31:54.078Z",
+        "topic_id": "1fe8740f-9a69-4ced-bb31-6008dea828fe",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bdb7a4d9-1009-4926-81b4-f721b9f2bddf",
+        "content": "Useful tips and tricks",
+        "created_at": "2023-09-27T17:46:54.504Z",
+        "updated_at": "2023-09-28T10:51:04.802Z",
+        "topic_id": "c449e5a3-8fec-442e-a2dd-8cdf6f988144",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "3b2cf1ac-c11a-448a-b484-2ec65877ddb6",
+        "title": "Melodies of the Night",
+        "duration": 15155,
+        "created_at": "2023-09-27T13:25:34.484Z",
+        "updated_at": "2023-09-28T08:51:44.710Z",
+        "topic_id": "c449e5a3-8fec-442e-a2dd-8cdf6f988144",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "280c647c-0eb0-47a5-a49d-10d157a2b87c",
+        "title": "Rhythms of Nature",
+        "duration": 57341,
+        "created_at": "2023-09-28T02:23:26.435Z",
+        "updated_at": "2023-09-27T16:33:04.276Z",
+        "topic_id": "59079737-67a8-41c1-89ff-d3868445b7af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e6b40cec-d03e-4c76-a02e-fdf247a883fa",
+        "title": "Harmonious Tunes",
+        "duration": 9416,
+        "created_at": "2023-09-27T19:37:38.963Z",
+        "updated_at": "2023-09-27T18:28:00.533Z",
+        "topic_id": "45af240d-be14-4ead-bf4e-89d8b50acbf0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6517b3c5-f7ee-4efc-8381-b125f4945da4",
+        "title": "Soulful Melodies",
+        "duration": 64629,
+        "created_at": "2023-09-28T00:23:41.169Z",
+        "updated_at": "2023-09-27T22:46:44.702Z",
+        "topic_id": "59079737-67a8-41c1-89ff-d3868445b7af",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1525a255-6455-4f02-b05e-59cd248ac295",
+        "title": "Euphonic Expressions",
+        "duration": 93654,
+        "created_at": "2023-09-27T20:06:29.035Z",
+        "updated_at": "2023-09-28T05:02:00.584Z",
+        "topic_id": "1fe8740f-9a69-4ced-bb31-6008dea828fe",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8f8d7655-7c25-4440-a42a-bc8d36b5d14b",
+        "email": "Axel.Hintz73@roq.tech",
+        "firstName": "Michael",
+        "lastName": "Schumm",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/658.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "be984d65-c715-4cc0-bb49-5d2826e13df3",
+        "email": "Casimir1@roq.tech",
+        "firstName": "Jaunita",
+        "lastName": "Rau-Kerluke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19692923",
+        "tenantId": null
+      },
+      {
+        "reference": "e7c0449d-3afa-4a08-ae47-bbc5b8e3e0a6",
+        "email": "Erna.Medhurst@roq.tech",
+        "firstName": "Emmitt",
+        "lastName": "Hessel-Sauer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/38899563",
+        "tenantId": null
+      },
+      {
+        "reference": "97adbc9a-dac3-430c-9e1d-1d4f858e9132",
+        "email": "Sadie_Donnelly87@roq.tech",
+        "firstName": "Colten",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63005315",
+        "tenantId": null
+      },
+      {
+        "reference": "ef43d9cf-519e-4f38-abd0-d4d6d1d5ec11",
+        "email": "Juanita56@roq.tech",
+        "firstName": "Adriel",
+        "lastName": "Marquardt",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/616.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "topic": [
+      {
+        "id": "648e2f34-03db-4768-a2c1-8de8ca8ba38e",
+        "title": "Introduction to Physics",
+        "description": "Explore the fundamental principles of physics",
+        "created_at": "2023-09-28T01:15:34.668Z",
+        "updated_at": "2023-09-27T12:24:53.480Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fb4fb5fd-38fc-4323-bd53-d7f1601875e7",
+        "title": "History of Ancient Rome",
+        "description": "Discover the rise and fall of Ancient Rome",
+        "created_at": "2023-09-28T06:30:35.540Z",
+        "updated_at": "2023-09-27T12:59:29.429Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "314712b7-1508-4dec-8d92-2502db0488dc",
+        "title": "Artificial Intelligence in Healthcare",
+        "description": "Learn about the role of AI in improving healthcare",
+        "created_at": "2023-09-27T12:14:56.152Z",
+        "updated_at": "2023-09-27T17:36:41.226Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c0445e50-1165-44b6-ae91-a8b8ce1ed689",
+        "title": "Climate Change and its Impact",
+        "description": "Understand the effects of climate change on our planet",
+        "created_at": "2023-09-28T04:31:59.299Z",
+        "updated_at": "2023-09-27T21:49:41.373Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "271009ad-bd06-4290-92a8-483a85086234",
+        "title": "The Power of Meditation",
+        "description": "Experience the benefits of meditation for mental well-being",
+        "created_at": "2023-09-28T03:53:28.888Z",
+        "updated_at": "2023-09-28T02:15:49.202Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "photo": [
+      {
+        "id": "70a39b0f-43c6-4477-96a4-bad3c123b38c",
+        "title": "Sunset at the Beach",
+        "description": "Capture the breathtaking beauty of a beach sunset",
+        "created_at": "2023-09-27T15:05:24.811Z",
+        "updated_at": "2023-09-28T09:44:07.076Z",
+        "topic_id": "c0445e50-1165-44b6-ae91-a8b8ce1ed689",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2cfa5a05-44d0-43aa-a0a0-5841e423d709",
+        "title": "Cityscape at Night",
+        "description": "Witness the mesmerizing city lights after dark",
+        "created_at": "2023-09-27T11:35:57.758Z",
+        "updated_at": "2023-09-27T19:45:07.625Z",
+        "topic_id": "fb4fb5fd-38fc-4323-bd53-d7f1601875e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "68ded419-0c32-483d-86ee-28c2cd3adb60",
+        "title": "Nature's Beauty",
+        "description": "Explore the wonders of nature through photography",
+        "created_at": "2023-09-28T06:08:50.670Z",
+        "updated_at": "2023-09-28T02:37:48.063Z",
+        "topic_id": "271009ad-bd06-4290-92a8-483a85086234",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d20acb6c-77aa-44ec-8ef6-e80080af330d",
+        "title": "Architectural Marvels",
+        "description": "Marvel at the architectural brilliance of iconic landmarks",
+        "created_at": "2023-09-27T14:59:59.612Z",
+        "updated_at": "2023-09-27T21:11:30.638Z",
+        "topic_id": "fb4fb5fd-38fc-4323-bd53-d7f1601875e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "873b97c4-bd2a-4c76-8ad6-ee8f347b5588",
+        "title": "Wildlife Safari",
+        "description": "Embark on an exciting wildlife adventure and capture stunning photographs",
+        "created_at": "2023-09-28T10:45:12.850Z",
+        "updated_at": "2023-09-28T05:19:36.156Z",
+        "topic_id": "fb4fb5fd-38fc-4323-bd53-d7f1601875e7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "note": [
+      {
+        "id": "e1c99801-d2d3-4003-a740-7a0e9cda9529",
+        "content": "Important points to remember for the exam",
+        "created_at": "2023-09-28T06:58:22.981Z",
+        "updated_at": "2023-09-27T23:39:01.942Z",
+        "topic_id": "fb4fb5fd-38fc-4323-bd53-d7f1601875e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a87b1191-4746-4cd4-8e7b-b950b0028114",
+        "content": "Key insights from the lecture",
+        "created_at": "2023-09-27T23:20:13.749Z",
+        "updated_at": "2023-09-28T11:05:22.818Z",
+        "topic_id": "271009ad-bd06-4290-92a8-483a85086234",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0b29d45-2500-4f3e-9f97-5ea994e7bc3b",
+        "content": "Thoughts and reflections on a book",
+        "created_at": "2023-09-27T13:55:17.161Z",
+        "updated_at": "2023-09-27T19:05:15.988Z",
+        "topic_id": "271009ad-bd06-4290-92a8-483a85086234",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e0fc513c-f20c-4171-afd6-303126ed4ddd",
+        "content": "Personal goals and aspirations",
+        "created_at": "2023-09-27T15:13:05.470Z",
+        "updated_at": "2023-09-27T23:59:36.736Z",
+        "topic_id": "fb4fb5fd-38fc-4323-bd53-d7f1601875e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e8ae1856-95f4-4481-aa6d-d89459bb2fd9",
+        "content": "Creative ideas for a project",
+        "created_at": "2023-09-27T21:40:24.346Z",
+        "updated_at": "2023-09-28T03:09:13.747Z",
+        "topic_id": "271009ad-bd06-4290-92a8-483a85086234",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "audio_record": [
+      {
+        "id": "2c95f8a6-cae2-4a04-86d7-312a0c977fd4",
+        "title": "Melodies of Nature",
+        "duration": 8521,
+        "created_at": "2023-09-27T11:56:52.228Z",
+        "updated_at": "2023-09-28T03:08:50.541Z",
+        "topic_id": "c0445e50-1165-44b6-ae91-a8b8ce1ed689",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b530177f-89c0-4fb1-9dec-9556e793ead1",
+        "title": "Inspiring Podcast Episodes",
+        "duration": 30400,
+        "created_at": "2023-09-27T12:38:39.555Z",
+        "updated_at": "2023-09-28T06:36:05.531Z",
+        "topic_id": "fb4fb5fd-38fc-4323-bd53-d7f1601875e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "811e60d6-3d1b-47cb-a717-d927312860fb",
+        "title": "Relaxing Ambient Music",
+        "duration": 35892,
+        "created_at": "2023-09-28T04:20:49.227Z",
+        "updated_at": "2023-09-28T07:57:53.262Z",
+        "topic_id": "c0445e50-1165-44b6-ae91-a8b8ce1ed689",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b2d1a6ba-db79-488f-8b1e-353b994cdb64",
+        "title": "Motivational Speeches",
+        "duration": 41461,
+        "created_at": "2023-09-28T08:55:47.734Z",
+        "updated_at": "2023-09-27T19:15:31.737Z",
+        "topic_id": "648e2f34-03db-4768-a2c1-8de8ca8ba38e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cc8fe7b6-d975-4a1b-b9ea-21f9a7f32e26",
+        "title": "Guided Meditation Sessions",
+        "duration": 643,
+        "created_at": "2023-09-27T21:40:49.120Z",
+        "updated_at": "2023-09-27T18:43:26.686Z",
+        "topic_id": "648e2f34-03db-4768-a2c1-8de8ca8ba38e",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0ab16001-a0e3-48b7-ba56-78c6e08bcd3c",
+        "email": "Franz.Schuppe@roq.tech",
+        "firstName": "Rhiannon",
+        "lastName": "Cruickshank",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/421.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2bcd7841-407c-4192-883f-8892a5a08591",
+        "email": "Beth86@roq.tech",
+        "firstName": "Berniece",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/8443218",
+        "tenantId": null
+      },
+      {
+        "reference": "1333e99e-5fd4-457c-b7d6-594d0e11fda5",
+        "email": "Emmie.Kuhlman68@roq.tech",
+        "firstName": "Verla",
+        "lastName": "Runolfsson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1011.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c8dc2090-685d-42a9-aff1-3083803dba86",
+        "email": "Oswald_Quitzon@roq.tech",
+        "firstName": "Unique",
+        "lastName": "Reichert",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/1774411",
+        "tenantId": null
+      },
+      {
+        "reference": "1424b785-0dec-4f9f-a5dd-6b25a6d83a54",
+        "email": "Rene72@roq.tech",
+        "firstName": "Flavio",
+        "lastName": "Murazik",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/6.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
